@@ -83,3 +83,34 @@ a {
     font-weight: 900;
     font-size: 16px;
 }
+
+.infor-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.infor-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    padding: 50px 0;
+}
+
+.illustration {
+    width: 141px;
+    height: 140px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.illustrations {
+    display: flex;
+    width: 700px;
+}
+
+.subtext p {
+    color: #E5E7EB;
+}
