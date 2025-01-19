@@ -88,29 +88,42 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 100px;
+    padding-bottom: 110px;
 }
 
 .infor-header {
     font-size: 36px;
     color: #1F2937;
-    font-weight: 800;
+    font-weight: 900;
     padding: 50px 0;
 }
 
 .illustration {
-    width: 141px;
-    height: 140px;
+    width: 180px;
+    height: 160px;
     border: 2px solid #3882F6;
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin: 0 20px;
+    border-width: thick;
 }
 
 .illustrations {
     display: flex;
-    width: 700px;
+    justify-content: space-between;
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtext {
+    max-width: 160px;
 }
 
 .subtext p {
-    color: #E5E7EB;
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
 }
